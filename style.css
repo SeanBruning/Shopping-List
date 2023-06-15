@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dosis&display=swap');
+
+body {
+  border: 4px solid #5800FF;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: -25px;
+  border: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Acme', dosis;	
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Acme', dosis;
+  font-size: 20px;
+  text-align: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(242, 5, 5);
+}
+
+button {
+  margin-left: 5px;
+  background-color: #72FFFF;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 1rem;
+  padding: 2rem;
+  font-family: 'Acme', dosis;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #00D7FF;
+  border-radius: 5px;
+}
